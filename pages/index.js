@@ -6,8 +6,9 @@ function HomePage() {
       <Head>
         <title>Next Shop</title>
       </Head>
-      <main>
-        <h1>Next Shop</h1>
+      <main className="px-6 py-4">
+        <h1 className="text-2xl pb-4">Next Shop</h1>
+        <p>[TODO: display products]</p>
       </main>
     </>
   );
