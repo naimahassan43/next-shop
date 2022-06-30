@@ -14,10 +14,15 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { id } }) {
   const product = await getProduct(id);
-  return { props: { product } };
+  return {
+    props: { product },
+    revalidate: 30, //seconds
+  };
 }
 
 function ProductPage({ product }) {
+  console.log("[ProductPage] render:", product);
+
   return (
     <>
       <Head>
