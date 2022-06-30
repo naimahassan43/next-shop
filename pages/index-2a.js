@@ -1,4 +1,5 @@
-//Option 1: fetch products on the client side(in useEffect())
+//Option 2a: fetch products on the client side(in useEffect())
+// directly from an external API
 
 import Head from "next/head";
 import { useState, useEffect } from "react";
