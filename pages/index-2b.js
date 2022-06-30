@@ -1,5 +1,9 @@
 //Option 2b: fetch products on the client side(in useEffect())
 // from an internal API route
+// fetching the data from an API route on the same next js app
+// so the browser doesn't need access to the backend API'
+// this requires writing an API handler that runs on the same next js server & fetches the data from the backend CMS
+//possibly transforming the data in the process
 
 import Head from "next/head";
 import { useState, useEffect } from "react";

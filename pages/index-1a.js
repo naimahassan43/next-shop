@@ -1,4 +1,5 @@
 //Option 1a: fetch products on the server side(in getStaticProps())
+// this way product data is fetched at build time & included in the staticly generated page which means the page loads very quickly & easily indexible by any search engine
 
 import Head from "next/head";
 import Title from "../components/Title";

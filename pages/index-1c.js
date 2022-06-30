@@ -1,4 +1,7 @@
 //Option 1c: fetch products on the server side(in getServerSideProps())
+//which means data will be fetched on the server side but at runtime that is on every request
+//this approach is similar to the using traditional server side frameworks like rubionrails or php
+//in that the server generate the html page dynamicaly on every request
 
 import Head from "next/head";
 import Title from "../components/Title";

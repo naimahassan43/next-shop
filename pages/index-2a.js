@@ -1,5 +1,7 @@
 //Option 2a: fetch products on the client side(in useEffect())
 // directly from an external API
+// this is a valid approach if we want to fetch fresh data every time
+// & this ok to access the backend API directly from the browser
 
 import Head from "next/head";
 import { useState, useEffect } from "react";

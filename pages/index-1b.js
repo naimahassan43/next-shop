@@ -1,5 +1,8 @@
 //Option 1b: fetch products on the server side
 // with Incremental Static Regeneration (in getStaticProps())
+// this means we get all the benefits of a staticly generated page but the page will be regenerated periodically
+//which means that if the data changes in the backend the page will also be up-to-date
+//the only downside is that this approach is not compatible with exporting the website staticly using the next export command
 
 import Head from "next/head";
 import Title from "../components/Title";
